@@ -1,5 +1,6 @@
 $(document).ready(function(){
      $('.parallax').parallax();
+     $('.slider').slider({full_width: true, indicators: true, height: 620, interval:10000});
    });
 $(document).ready(function(){
    $('a[href^="#"]').on('click',function (e) {
