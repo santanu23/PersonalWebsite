@@ -12,18 +12,25 @@
 
     <body>
 
-      <!--Navagation Bar -->
-
-      <nav class="colour: blue lighten-1" role="navigation">
-       <div class="nav-wrapper container">
-         <a href="#" class="brand-logo left">Santanu Sarker</a>
-         <ul id="nav-mobile" class="right hide-on-small-and-down">
-           <li><a href="#About">About</a></li>
-           <li><a href="#Experience">Experience</a></li>
-           <li><a href="#Contact">Contact</a></li>
-         </ul>
-       </div>
-      </nav>
+      <!-- Navagation Bar -->
+      <div class="navbar-fixed">
+        <nav class="colour: blue lighten-1" role="navigation">
+         <div class="nav-wrapper container">
+           <a href="#Homepage" class="brand-logo left">Santanu Sarker</a>
+           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
+           <ul class="right hide-on-med-and-down">
+             <li><a href="#About">About</a></li>
+             <li><a href="#Experience">Experience</a></li>
+             <li><a href="#Contact">Contact</a></li>
+           </ul>
+           <ul class="side-nav" id="mobile-demo">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+         </div>
+        </nav>
+      </div>
       <section id = "Homepage">
         <!--Parallax -->
         <div id="home-screen" class="parallax-container">
