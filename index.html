@@ -20,18 +20,21 @@
            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
            <ul class="right hide-on-med-and-down">
              <li><a class = "waves-effect" href="#About">About</a></li>
+             <li><a class = "waves-effect" href="#Skills">Skills</a></li>
              <li><a class = "waves-effect" href="#Experience">Experience</a></li>
              <li><a class = "waves-effect" href="#Contact">Contact</a></li>
            </ul>
            <ul class="side-nav colour: blue lighten-1 hide-on--and-up" id="mobile-demo">
             <li><a class = "waves-effect" href="#Homepage">Home</a></li>
             <li><a class = "waves-effect" href="#About">About</a></li>
+            <li><a class = "waves-effect" href="#Skills">Skills</a></li>
             <li><a class = "waves-effect" href="#Experience">Experience</a></li>
             <li><a class = "waves-effect" href="#Contact">Contact</a></li>
           </ul>
          </div>
         </nav>
       </div>
+
       <section id = "Homepage">
         <!--Parallax -->
         <div id="home-screen" class="parallax-container">
@@ -54,12 +57,15 @@
           <div class="parallax"><img src="images/img5.jpg" alt="Unsplashed background img 1"></div>
         </div>
       </section>
+
       <section id = "About">
         <div class="section white">
           <div class="row"></div><div class="row"></div>
           <div class="row container">
             <h1 class="header center thin">About</h1>
           </div>
+
+          <br><br>
           <div class="row"></div>
           <div class="row container center">
             <div class="container col l4 m3 hide-on-small-only offset-m1 electrical">
@@ -72,23 +78,34 @@
               <img src="images/waterloo.jpg" class="circle responsive-img ">
             </div>
           </div>
-        <div class="row"></div><div class="row"></div>
+          <br><br>
           <div class="container center">
               <h3 class="thin welcome message grey-text text-darken-1">Welcome to my website
             </h3>
           </div>
+          <br>
         <div class="row"></div>
           <div class="container center">
               <h5 class="condensed grey-text text-darken-2">I am currently a student at the University of Waterloo pursuing a Bachelor of Applied Science degree in Electrical Engineering. Scroll through this website to learn more about me, my skills and interests. Please feel free to contact me about employment and thanks for visiting.
             </h5>
           </div>
-          <div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div>
+
+          <br><br><br>
+          <br><br>
 
         </div>
       </section>
 
-      <div class="parallax-container">
+      <div class="parallax-container parallax-container-2">
         <div class="parallax"><img src="images/img6.jpg"></div>
+      </div>
+
+      <section id = "Skills">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </section>
+
+      <div class="parallax-container parallax-container-3">
+        <div class="parallax"><img src="images/img1.jpg"></div>
       </div>
 
       <section id = "Experience">
@@ -174,14 +191,14 @@
                 </div>
               </li>
               <li>
-                <img src="images/experience6.jpeg"> <!-- random image -->
+                <img src="images/experience6.jpg"> <!-- random image -->
                 <div class="caption center-align">
                   <h3 class="black-text">Youtuber</h3>
                   <div class="row">
                     <div class="col s12 m6 l6 offset-l3 offset-m3">
                       <div class="card blue-grey darken-2">
                         <div class="card-content white-text">
-                          <p>I created youtube videos featured on Machinima in a series called <a href = "https://www.youtube.com/watch?v=P28ShG9B8jA&index=41&list=PLRILbAMFFjpy3QvrJyA0qDVSlws0UpUhc"> Bronze Thoughts</p>
+                          <p>I created youtube videos featured on Machinima in a series called <a href = "https://www.youtube.com/watch?v=P28ShG9B8jA&index=41&list=PLRILbAMFFjpy3QvrJyA0qDVSlws0UpUhc">Bronze Thoughts</a></p>
                         </div>
                       </div>
                     </div>
@@ -191,6 +208,62 @@
             </ul>
           </div>
         </div>
+        <br><br><br>
+      </section>
+
+      <div class="parallax-container parallax-container-4">
+        <div class="parallax"><img src="images/img3.jpg"></div>
+      </div>
+
+      <section id = "Contact">
+        <footer class="page-footer blue lighten" style="margin-top:0px;">
+          <div class="container">
+            <div class="row">
+            <div class="col l6 s12">
+            <h5 class="white-text">Get in touch</h5>
+            <form class="col s12" action="contact.php" method="post" id="contactForm">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="mdi-account-circle prefix white-text"></i>
+                  <input id="name" name="name" type="text" class="validate white-text">
+                  <label for="name" class="white-text">Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="mdi-email prefix white-text"></i>
+                  <input id="email" name="email" type="email" class="validate white-text">
+                  <label for="email" class="white-text">Email</label>
+                </div>
+                <div class="input-field col s12">
+                  <i class="mdi-pencil prefix white-text"></i>
+                  <textarea id="message" name="message" class="materialize-textarea white-text" style="padding-bottom: 0px;"></textarea>
+                  <label for="message" class="white-text">Message</label>
+                </div>
+                <div class="col offset-s7 s5">
+                  <button class="btn waves-effect waves-light white light-blue-text text-darken-2 right" type="submit">Send
+                    <i class="mdi-send right text-darken-2"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+                </div>
+            <div class="col offset-l2 l4 s12" style="text-align: right;">
+            <h5 class="white-text">Contact</h5>
+            <ul>
+              <li><span class="white-text">Santanu Sarker<br/>Scarborough, Ontario</span></li>
+              <li><a href="mailto:sarkersantanu@gmail.com" class="white-text" style="">sarkersantanu@gmail.com</a></li>
+              <li><span class="white-text" style="">Tel: +1 (647) 701-8107</span></li>
+              <li><a href="tel:+16477018107" target="_blank"><i class="fa fa-phone fa-2x right" style="color:white;margin-top:10px;"></i><a href="mailto:support@android-kiosk.com" target="_blank"><i class="fa fa-envelope fa-2x right" style="color:white;margin-top:10px;"></i></a><a href="https://ca.linkedin.com/in/santanu23" target="_blank"><i class="fa fa-linkedin fa-2x right" style="color:white; margin-top:10px"></i></a><a href="https://www.facebook.com/santanu.sarker1" target="_blank"><i class="fa fa-facebook fa-2x right" style="color:white;margin-top:10px;"></i></a></li>
+              <!--<li><div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/112075968512143653723" data-rel="publisher"></div></li>-->
+            </ul>
+            </div>
+          </div>
+          </div>
+          <div class="footer-copyright blue darken-2">
+            <div class="container">
+              <span class="white-text right">© 2015 <a href="#Homepage" class="white-text">Santanu Sarker</a></span>
+            </div>
+          </div>
+        </footer>
       </section>
 
       <!--Import jQuery before materialize.js-->

@@ -1,5 +1,12 @@
-.parallax-container {
-  min-height: 400px;
+.parallax-container-2{
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container-3{
+  min-height: 600px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -54,7 +61,7 @@
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #42A5F5;
+  background-color: white;
 }
 .slider .indicators {
   bottom: 60px;
@@ -90,12 +97,17 @@
     font-weight: 300;
   }
 
-  .slogan{
+.slogan{
     display:none;
   }
 
-  #Github-button,#Linkedin-button,#Resume-button{
+#Github-button,#Linkedin-button,#Resume-button{
     display: block;
     margin: 20px 50px;
   }
+}
+
+.slider .indicators .indicator-item{
+  height: 1.5em;
+  width: 1.5em;
 }
