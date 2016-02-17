@@ -14,4 +14,10 @@ $(document).ready(function(){
        window.location.hash = target;
     });
   });
+  var options = [
+    {selector: '#About', offset: 200, callback: 'Materialize.fadeInImage("#faceImage")'},
+    {selector: '#About', offset: 200, callback: 'Materialize.fadeInImage("#programImage")'},
+    {selector: '#About', offset: 200, callback: 'Materialize.fadeInImage("#universityImage")'},
+  ];
+  Materialize.scrollFire(options);
 });

@@ -139,3 +139,8 @@ color: #33cc33 !important;
 a>i.fa.fa-2x.right {
 transition:all .2s ease .1s;
 }
+
+section#Skills > center > div.row.container > button {
+  margin-left:10px;
+  margin-right:10px;
+}
