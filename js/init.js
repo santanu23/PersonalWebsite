@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  console.log('%c HIRE ME! ', 'background: #222; color: #33cc33; font-size:150px');
+  console.log('%c HIRE ME ', 'background: #222; color: #33cc33; font-size:150px');
   $('.parallax').parallax();
   $('.slider').slider({full_width: true, indicators: true, height: 620, interval:10000});
   $(".button-collapse").sideNav();
