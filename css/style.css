@@ -12,6 +12,16 @@
   color: rgba(255,255,255,.9);
 }
 
+.homePageLinks
+{
+  margin-left:1em;
+  margin-right:1em;
+}
+
+.goDownButton {
+  margin-top:10%;
+  font-size:2em;
+}
 
 .parallax-container-4{
   min-height: 550px;
