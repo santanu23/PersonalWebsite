@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #F9F9F9;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100%;
+  display: flex;
+}
+
+.heading {
+  margin-top: 0;
+  color: #777777;
+}
+
+.container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 125px;
+  border: 2px solid #777777;
+  width: 250px;
+  height: 250px;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.link {
+  display: block;
+  font-size: 15pt;
+  margin-bottom: 10px;
+  color: #9F9F9F;
+  text-decoration: none;
+}
+
+.link:hover, .link:focus {
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: rgb(0, 175, 255);
+}

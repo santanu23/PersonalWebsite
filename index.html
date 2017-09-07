@@ -1,381 +1,67 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="css/font-awesome.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!-- CSS  -->
-      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-      <link rel="stylesheet" href="css/animate.css">
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="My personal website">
+    <meta name="author" content="Munaz Rahman">
+    <link rel="icon" href="./favicon.ico">
 
-    <body>
-      <!-- Navagation Bar -->
-      <div class="navbar-fixed">
-        <nav class="colour: blue lighten-1" role="navigation">
-         <div class="nav-wrapper container">
-           <a href="#Homepage" class="brand-logo left hide-on-med-and-down">Santanu Sarker</a>
-           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
-           <ul class="right hide-on-med-and-down">
-             <li><a data-wow-delay="3.5s" class = "waves-effect wow tada" href="#About">About</a></li>
-             <li><a data-wow-delay="4s" class = "waves-effect wow tada" href="#Skills">Skills</a></li>
-             <li><a data-wow-delay="4.5s" class = "waves-effect wow tada" href="#Experience">Experience</a></li>
-             <li><a data-wow-delay="5s" class = "waves-effect wow tada" href="#Contact">Contact</a></li>
-           </ul>
-           <ul class="side-nav colour: blue lighten-1 hide-on--and-up" id="mobile-demo">
-            <li><a class = "waves-effect" href="#Homepage">Home</a></li>
-            <li><a class = "waves-effect" href="#About">About</a></li>
-            <li><a class = "waves-effect" href="#Skills">Skills</a></li>
-            <li><a class = "waves-effect" href="#Experience">Experience</a></li>
-            <li><a class = "waves-effect" href="#Contact">Contact</a></li>
-          </ul>
-         </div>
-        </nav>
+    <title>Santanu Sarker | Computer Engineering Student</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./index_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="./index_files/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div  class="container">
+      <h1 class="heading">Santanu Sarker</h1>
+
+      <h3 class="heading">Computer Engineering Student</h3>
+      <img class="profile-image" src="./images/profile.jpg" />
+      <div>
+        <a class="link" href="mailto:s3sarker@uwaterloo.ca">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <span>Email</span>
+        </a>
+        <a class="link" href="https://github.com/santanu23">
+          <i class="fa fa-github" aria-hidden="true"></i>
+          <span>GitHub</span>
+        </a>
+        <a class="link" href="https://linkedin.com/in/santanu23">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a class="link" href="./files/resume.pdf">
+          <i class="fa fa-file-text" aria-hidden="true"></i>
+          <span>Résumé</span>
+        </a>
       </div>
+    </div>
 
-      <section id = "Homepage">
-        <!--Parallax -->
-        <div id="home-screen" class="parallax-container">
-          <div class="section no-pad-bot">
-            <div class="row">
-              <h1 class="header center white-text name wow fadeInUp" data-wow-delay="0.2s">Santanu Sarker</h1>
-            </div>
-            <div class="row snogan-container">
-              <h2 class="header center white-text slogan wow fadeInUp" data-wow-delay="0.5s">Designer Developer Engineer</h1>
-            </div>
 
-              <div class="row center">
-
-                    <a href="https://github.com/santanu23" id="Github-button" data-wow-delay="1s" class="btn-large waves-effect waves-light blue lighten-1 wow rubberBand homePageLinks"><i class="fa fa-github"></i> Github</a>
-                    <a href="https://ca.linkedin.com/in/santanu23" id="Linkedin-button" data-wow-delay="1.5s" class="btn-large waves-effect waves-light blue lighten-1 wow rubberBand homePageLinks"><i class="fa fa-linkedin-square"></i> Linkedin</a>
-                    <a href="http://santanusarker.com/resume.pdf" id="Resume-button" data-wow-delay="2s" class="btn-large waves-effect waves-light blue lighten-1 wow rubberBand homePageLinks"><i class="fa fa-file-text"></i> Resume</a>
-              </div>
-
-              <div class="row center">
-                <a href="#About" data-wow-delay="3s" class="goDownButton btn-floating btn-large waves-effect waves-light blue lighten-1 wow fadeInDown"><i style="font-size: 1.2em; line-height: 60px;" class="large material-icons downIcon">keyboard_arrow_down</i></a>
-              </div>
-
-          </div>
-          <div class="parallax"><img src="images/img5.jpg" alt="Unsplashed background img 1"></div>
-        </div>
-      </section>
-
-      <section id = "About">
-        <div class="section white">
-          <div class="row"></div><div class="row"></div>
-          <div class="row container">
-            <h1 class="header center thin">About</h1>
-          </div>
-
-          <br>
-          <div class="row"></div>
-          <div class="row container center">
-            <div class="container col l4 m3 hide-on-small-only offset-m1 electrical">
-              <img src="images/electrical.jpg" class="circle" id="faceImage">
-            </div>
-            <div class="container col l4 m4 s12 headshot">
-              <img src="images/face.png" class="circle" id="programImage">
-            </div>
-            <div class="container col l4 m3 s3 hide-on-small-only universitylogo" id="universityImage">
-              <img src="images/waterloo.jpg" class="circle">
-            </div>
-          </div>
-          <br>
-          <div class="container center">
-              <h3 class="thin welcome message grey-text text-darken-1">Welcome
-            </h3>
-          </div>
-          <br>
-        <div class="row"></div>
-          <div class="container center">
-              <h5 class="condensed grey-text text-darken-2">I am currently a third year student at the University of Waterloo pursuing a Bachelor of Applied Science degree in Computer Engineering. I am very passionate about technology and its impact on our daily lives. I am a problem solver. I like taking on tough challenges where I can make a meaningful impact. Scroll through my website to learn more about me, my skills and interests. Please feel free to contact me about employment and thanks for visiting.</h5>
-          </div>
-
-          <br><br>
-
-        </div>
-      </section>
-
-      <div class="parallax-container parallax-container-2">
-        <div class="parallax"><img src="images/img6.jpg"></div>
-      </div>
-
-      <section id = "Skills">
-        <br><br>
-        <div class="row container">
-          <h1  class="header center thin">Skills</h1>
-        </div>
-        <br><br>
-        <center>
-          <div class="row container">
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              AngularJS
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              KnockoutJS
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              C#
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              Java
-            </button>
-          </div>
-        </center>
-        <center>
-          <div class="row container">
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              HTML 5
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              CSS 3
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              Photoshop
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              Sony Vegas
-            </button>
-          </div>
-        </center>
-        <center>
-          <div class="row container">
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              Android
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              SQL
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              MongoDB
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              Bootstrap
-            </button>
-          </div>
-        </center>
-        <center>
-          <div class="row container">
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              Materialize
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              C
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              Jquery
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              Windows 10
-            </button>
-          </div>
-        </center>
-        <center>
-          <div class="row container">
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              C++
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              Linux Shell
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              MVC
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              MVVM
-            </button>
-          </div>
-        </center>
-        <center>
-          <div class="row container">
-
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              Git
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              AutoIt
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              Microsoft Office
-            </button>
-            <button class="btn waves-effect waves-light blue white-text btn-large">
-              XNA
-            </button>
-          </div>
-        </center>
-        <br><br><br><br><br><br><br><br>
-      </section>
-
-      <div class="parallax-container parallax-container-3">
-        <div class="parallax"><img src="images/img1.jpg"></div>
-      </div>
-
-      <section id = "Experience">
-        <div class="section white">
-            <div class="row container">
-              <h1 class="header center thin">Experience</h1>
-            </div>
-          <div class="slider">
-            <ul class="slides">
-            <li>
-                <img src="images/experience1.jpg"> <!-- random image -->
-                <div class="caption center-align">
-                  <h3 class = "textShadowBlack">Software Application Developer</h3>
-                  <div class="row">
-                    <div class="col s12 m6 l6 offset-l3 offset-m3">
-                      <div class="card blue-grey darken-2">
-                        <div class="card-content white-text">
-                          <p>In my third co-op, I worked as Software Application Developer at SAP. During my time there, I worked on a proof of concept project for the manufacturing industry. I created a graphing tool for visualizing real time sensor data streams. Some of the technologies used in this project include: Bootstrap and Chart.js (front end), Jetty and SAP SQL Anywhere (back end). I also created the database schema in addition to batch scripts to automate the creation for this project.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <img src="images/experience1.jpg"> <!-- random image -->
-                <div class="caption center-align">
-                  <h3 class = "textShadowBlack">Junior Systems Developer</h3>
-                  <div class="row">
-                    <div class="col s12 m6 l6 offset-l3 offset-m3">
-                      <div class="card blue-grey darken-2">
-                        <div class="card-content white-text">
-                          <p>In my second co-op, I worked as junior systems developer at Fleet Complete. During my time there, I worked on several projects which involved the use of many different technologies. I created several web portals using AngularJs, jquery, .Net MVC, and Microsoft SQL server. Additionaly, I also created plugins to improve performance within Mircosoft Dynamics CRM.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <img src="images/experience2.jpg"> <!-- random image -->
-                <div class="caption center-align">
-                  <h3 class = "textShadowBlack">Systems/Network Administrator</h3>
-                  <div class="row">
-                    <div class="col s12 m6 l6 offset-l3 offset-m3">
-                      <div class="card blue-grey darken-2">
-                        <div class="card-content white-text">
-                          <p>During my first co-op term at Matcor-Matsu, I maintained several servers and assisted in day to day System/Network administration. I developed several scripts to effciently automate daily tasks. I also assisted in the design and implementation of System/Network upgrade and modification</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <img src="images/experience3.jpg"> <!-- random image -->
-                <div class="caption center-align">
-                  <h3 class="black-text textShadowWhite">Android Developer</h3>
-                  <div class="row">
-                    <div class="col s12 m6 l6 offset-l3 offset-m3">
-                      <div class="card blue-grey darken-2">
-                        <div class="card-content white-text">
-                          <p>In ECE 155 (Engineering Design with Embeded Systems) real time sensor information was used to make a step counter and map naviator application</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <img src="images/experience4.jpg"> <!-- random image -->
-                <div class="caption center-align">
-                  <h3  class = "textShadowBlack" >Game Developer</h3>
-                  <div class="row">
-                    <div class="col s12 m6 l6 offset-l3 offset-m3">
-                      <div class="card blue-grey darken-2">
-                        <div class="card-content white-text">
-                          <p> As a computer science final project in grade 12, I build a <a href  = "https://github.com/santanu23/ChemistryCollector">2D platformer game</a> using XNA game studio. Object Oriented Programming was used to implement several elements of the game. Lists and I/O were used to implement map information stored on disk</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <img src="images/experience6.jpg"> <!-- random image -->
-                <div class="caption center-align">
-                  <h3 class="black-text textShadowWhite">Youtuber</h3>
-                  <div class="row">
-                    <div class="col s12 m6 l6 offset-l3 offset-m3">
-                      <div class="card blue-grey darken-2">
-                        <div class="card-content white-text">
-                          <p>I created youtube videos featured on Machinima in a series called <a href = "https://www.youtube.com/watch?v=P28ShG9B8jA&index=41&list=PLRILbAMFFjpy3QvrJyA0qDVSlws0UpUhc">Bronze Thoughts</a></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <br><br><br>
-      </section>
-
-      <div class="parallax-container parallax-container-4">
-        <div class="parallax"><img src="images/img3.jpg"></div>
-      </div>
-
-      <section id = "Contact">
-
-        <footer class="page-footer blue lighten" style="margin-top:0px;">
-          <div class="container">
-            <div class="row">
-            <div class="col l6 s12">
-            <h5 class="white-text">Get in touch</h5>
-            <form class="col s12" action="//formspree.io/sarkersantanu@gmail.com" method="post" id="contactForm">
-              <div class="row">
-                <div class="input-field col s6">
-                  <i class="material-icons prefix white-text">account_circle</i>
-                  <input id="name" name="name" type="text" class="validate white-text">
-                  <label for="name" class="white-text">Name</label>
-                </div>
-                <div class="input-field col s6">
-                    <i class="material-icons prefix white-text">email</i>
-                  <input id="email" name="email" type="email" class="validate white-text">
-                  <label for="email" class="white-text">Email</label>
-                </div>
-                <div class="input-field col s12">
-                    <i class="material-icons prefix white-text">mode_edit</i>
-                  <textarea id="message" name="message" class="materialize-textarea white-text" style="padding-bottom: 0px;"></textarea>
-                  <label for="message" class="white-text">Message</label>
-                </div>
-                <div class="col offset-s7 s5">
-                  <button class="btn waves-effect waves-light white light-blue-text text-darken-2 right" type="submit">Send
-                    <i class="material-icons right">send</i>
-                  </button>
-                </div>
-              </div>
-            </form>
-                </div>
-            <div class="col offset-l2 l4 s12" style="text-align: right;">
-            <h5 class="white-text">Contact</h5>
-            <ul>
-              <li><span class="white-text">Santanu Sarker<br/>Scarborough, Ontario</span></li>
-              <li><a href="mailto:sarkersantanu@gmail.com" class="white-text" style="">sarkersantanu@gmail.com</a></li>
-              <li><span class="white-text" style="">Tel: +1 (647) 701-8107</span></li>
-              <li><a href="tel:+16477018107" target="_blank"><i class="fa fa-phone fa-2x right" style="color:white;margin-top:10px;"></i><a href="mailto:support@android-kiosk.com" target="_blank"><i class="fa fa-envelope fa-2x right" style="color:white;margin-top:10px;"></i></a><a href="https://ca.linkedin.com/in/santanu23" target="_blank"><i class="fa fa-linkedin fa-2x right" style="color:white; margin-top:10px"></i></a><a href="https://www.facebook.com/santanu23" target="_blank"><i class="fa fa-facebook fa-2x right" style="color:white;margin-top:10px;"></i></a></li>
-              <!--<li><div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/112075968512143653723" data-rel="publisher"></div></li>-->
-            </ul>
-            </div>
-          </div>
-          </div>
-          <div class="footer-copyright blue darken">
-            <div class="container">
-              <span class="white-text right">© 2015 <a href="#Homepage" class="white-text">Santanu Sarker</a></span>
-            </div>
-          </div>
-        </footer>
-      </section>
-
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/wow.min.js"></script>
-      <script src="js/init.js"></script>
-    </body>
-  </html>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./index_files/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./index_files/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
+    <script src="./index_files/particles.js"></script>
+    <script src="./index_files/app.js"></script>
+  </body>
+</html>
