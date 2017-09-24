@@ -11,6 +11,11 @@ body {
 
 .heading {
   margin-top: 0;
+  color: #333333;
+}
+
+.details{
+  margin-top: 0;
   color: #777777;
 }
 
@@ -28,16 +33,26 @@ body {
   width: 250px;
   height: 250px;
   align-self: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  margin-top: 5px;
   box-shadow: 0 5px 5px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
 
+.link-container {
+    margin-top: 10px;
+}
+
+.company-link {
+  text-decoration: none !important;
+  color: #777777;  
+}
+
 .link {
-  display: block;
   font-size: 15pt;
   margin-bottom: 10px;
   color: #777777;
   text-decoration: none;
+  padding: 5px;
 }
 
 .link:hover, .link:focus {
